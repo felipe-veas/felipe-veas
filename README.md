@@ -43,7 +43,7 @@
 ![](https://img.shields.io/badge/RedHat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
 ![](https://img.shields.io/badge/RockyLinux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
-![](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 
 ### Frameworks and libraries
 
