@@ -50,8 +50,6 @@
 ![](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)
 ![](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woo&logoColor=white)
 
 <!--
 **fveas/fveas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
