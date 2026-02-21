@@ -1,90 +1,153 @@
-# Site Reliability Engineer | DevOps & Cloud Engineer
+# Felipe Veas
 
-Platform engineer specializing in building and operating resilient cloud infrastructure on AWS and GCP. Expertise in Kubernetes orchestration, infrastructure as code with Terraform, and comprehensive observability engineering using Prometheus, Grafana, and Elastic Stack.
+**Site Reliability Engineer** | **Platform Reliability & Operations**
 
-Proficient in Python and Bash for automation. Focused on reliability engineering, scalable architectures, and data-driven incident response.
+I operate and improve production Kubernetes platforms on GCP and AWS.  
+My work focuses on reliability engineering, operational safety, and reducing
+engineering toil through platform design, automation, and internal tooling.
 
+~9 years operating distributed production systems and critical SaaS environments.
+
+---
+
+## Key Experience
+
+- Production on-call rotations for critical services
+- Incident response coordination and root-cause analysis
+- GitOps deployment platforms (ArgoCD)
+- Observability systems (metrics, logs, alerting)
+- Kubernetes platform operations (GKE)
+- Infrastructure as Code environments (Terraform)
+- Automation and internal operational tooling
+
+---
+
+## Featured Project — Kubernetes Platform (GitOps + Terraform)
+
+Repository:  
+<https://github.com/felipe-veas/homelab-platform>
+
+Production-style Kubernetes platform designed and operated using Terraform
+for cluster bootstrap and ArgoCD for workload orchestration.
+
+### Platform Capabilities
+
+- App-of-apps GitOps deployment model
+- Declarative workload delivery
+- Observability stack (metrics + logs)
+- Policy enforcement with Kyverno
+- Ingress, certificates, and operational services
+
+### Operational Impact
+
+- Reproducible cluster bootstrap
+- Safer change management
+- Configuration drift detection
+- Clear separation: infrastructure vs workloads
+- Operational visibility of cluster state
+
+---
+
+## Automation & Tooling
+
+I build tooling to reduce recurring operational work and allow engineers to
+operate systems safely without deep infrastructure expertise.
+
+**Examples**:
+
+dotctl — internal operational CLI  
+<https://github.com/felipe-veas/dotctl>
+
+homebrew-tap — standardized tool distribution  
+<https://github.com/felipe-veas/homebrew-tap>
+
+**Outcomes**:
+
+- Faster onboarding
+- Standardized operational workflows
+- Reduced configuration errors
+- Less manual intervention during incidents
+
+---
+
+## Reliability & Operations
+
+### Incident Response
+
+- On-call incident handling and coordination
+- Root-cause analysis and recurrence prevention
+- Blameless post-incident reviews
+- Recovery and service continuity procedures
+
+### Reliability Engineering
+
+- SLO-driven alerting
+- Signal tuning and alert fatigue reduction
+- Failure mode analysis
+- Improving recovery characteristics (not only uptime)
+
+### Platform Engineering
+
+- Kubernetes workload standardization
+- GitOps rollout patterns
+- Safe deployment practices
+- Developer enablement workflows
+
+---
+
+## Observability
+
+Built and operated observability layers combining metrics, logs, and traces.
+
+- Prometheus & Grafana
+- Elastic Stack
+- Datadog
+- Alerting and signal quality tuning
+- Faster incident triage and investigation
+
+---
 
 ## Technical Stack
 
-### Languages & Scripting
-![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
-![](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+**Cloud & Infrastructure**  
+GCP, AWS, Terraform, Linux
 
+**Containers & Orchestration**  
+Kubernetes (GKE), Helm, Docker
 
-### Cloud Platforms & Infrastructure as Code
-![](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![](https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white)
+**GitOps & CI/CD**  
+ArgoCD, GitLab CI, GitHub Actions
 
+**Languages**  
+Python, Bash, Go (tooling)
 
-### Containers & Orchestration
-![](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+---
 
+## Operational Background
 
-### GitOps & CI/CD
-![](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![](https://img.shields.io/badge/Flux-5468FF?style=for-the-badge&logo=flux&logoColor=white)
-![](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+- Multi-tenant high-availability systems
+- Incident coordination
+- Service recovery
+- Capacity and scaling events
+- Collaboration with development and product teams
 
+---
 
-### Service Mesh & Networking
-![](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
-![](https://img.shields.io/badge/Linkerd-2BEDA7?style=for-the-badge&logo=linkerd&logoColor=white)
-![](https://img.shields.io/badge/Envoy-AC6199?style=for-the-badge&logo=envoyproxy&logoColor=white)
-![](https://img.shields.io/badge/Consul-F24C53?style=for-the-badge&logo=consul&logoColor=white)
+## Engineering Approach
 
+I focus on changing how systems are operated, not only keeping them running.
 
-### Observability & Monitoring
-![](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![](https://img.shields.io/badge/Jaeger-66CFE3?style=for-the-badge&logo=jaeger&logoColor=white)
-![](https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white)
-![](https://img.shields.io/badge/Fluentd-0E83C8?style=for-the-badge&logo=fluentd&logoColor=white)
-![](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
-![](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+Core principles:
 
+- Reliability as a system property
+- Automation as operational safety
+- Toil reduction as an engineering goal
+- Incident response as a repeatable process
 
-### Security & Policy
-![](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![](https://img.shields.io/badge/Falco-00AEC7?style=for-the-badge&logo=falco&logoColor=white)
-![](https://img.shields.io/badge/OPA-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+Most of what I build is invisible when it works.
 
+---
 
-### Databases & Data Infrastructure
-![](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
-![](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+## Elsewhere
 
-
-### Operating Systems
-![](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
-![](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
-![](https://img.shields.io/badge/Rocky_Linux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
-![](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-
-
-## Professional Experience Highlights
-
-- Architected and deployed production-grade infrastructure on AWS and GCP using Terraform and Kubernetes
-- Implemented end-to-end CI/CD pipelines with GitHub Actions, ArgoCD, Flux, and Ansible for automated deployments
-- Designed and operated comprehensive observability platforms (Prometheus, Grafana, Jaeger, Elastic Stack) with distributed tracing and log aggregation using Fluentd
-- Deployed and managed service mesh architectures (Istio, Linkerd) for traffic management, security, and observability
-- Optimized Kubernetes workloads with Helm charts, resource management, health checks, HPA, and cluster autoscaling strategies
-- Led containerization initiatives for legacy applications, improving deployment velocity and system reliability
-- Established GitOps practices with ArgoCD and Flux for declarative, version-controlled infrastructure management
-- Implemented security best practices with HashiCorp Vault for secrets management, Falco for runtime security, and OPA for policy enforcement
-- Delivered incident response, root cause analysis documentation, and blameless postmortem processes
-- Built custom monitoring solutions with alerting rules, SLO tracking, and automated remediation workflows
-
-
-## Contact
-
-[GitHub](https://github.com/felipe-veas) | [LinkedIn](https://www.linkedin.com/in/felipe-veas)
+LinkedIn: <https://linkedin.com/in/felipe-veas>
