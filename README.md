@@ -87,7 +87,7 @@ These are not tutorials — they are operational reliability notes.
 
 Production reliability is achieved through safer operational systems, not stronger infrastructure.
 
-Failures usually come from:
+### Failures usually come from
 
 - Unclear ownership
 - Unsafe change processes
