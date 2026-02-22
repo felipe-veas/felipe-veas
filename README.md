@@ -2,107 +2,102 @@
 
 Site Reliability Engineer — Platform Reliability & Operations
 
-I run production systems. Most of my day isn't spent fixing broken servers—it's
-spent fixing how organizations operate them.
+**Most reliability problems are organizational, not technical.**
 
-Reliability is an operational discipline. My focus is reducing human error,
-making incident response predictable, and building platforms so teams can ship
-safely without needing a PhD in operations.
+I design and operate production systems with a focus on operational safety, predictable incident response, and reducing operational load across teams.
 
-I've spent ~9 years operating distributed systems and critical SaaS
-environments.
+---
+
+## What I Actually Run
+
+### Kubernetes Platform (GitOps + Terraform)
+
+Production-style platform showing how infrastructure and workloads can be operated safely and independently.
+
+[→ felipe-veas/homelab-platform](https://github.com/felipe-veas/homelab-platform)
+
+#### Key properties
+
+- App-of-apps GitOps deployment model (ArgoCD)
+- Declarative workload delivery
+- Policy enforcement (Kyverno)
+- Ingress, certificates, and operational services
+- Observability stack (metrics + logs)
+
+#### Operational outcomes
+
+- Reproducible cluster bootstrap
+- Safer change management
+- Drift detection
+- Clear ownership boundaries
+- Operational visibility of cluster state
+
+---
+
+## Operational Tooling
+
+Internal tooling designed to make operational actions safe and repeatable.
+
+### dotctl — operational CLI interface [→ felipe-veas/dotctl](https://github.com/felipe-veas/dotctl)
+
+### homebrew-tap — standardized tool distribution [→ felipe-veas/homebrew-tap](https://github.com/felipe-veas/homebrew-tap)
+
+### Outcomes
+
+- Faster onboarding
+- Repeatable operations
+- Fewer configuration errors
+- Less manual intervention during incidents
+
+---
+
+## Production Reliability Notes
+
+I maintain repositories documenting how real production systems behave and how teams operate them under pressure.
+These are not tutorials — they are operational reliability notes.
+
+**Operating Production Systems**
+[→ felipe-veas/operating-production-systems](https://github.com/felipe-veas/operating-production-systems)
+
+**Handling Production Incidents**
+[→ felipe-veas/handling-production-incidents](https://github.com/felipe-veas/handling-production-incidents)
+
+**Reducing Operational Toil**
+[→ felipe-veas/reducing-operational-toil](https://github.com/felipe-veas/reducing-operational-toil)
+
+**Platform Engineering Model**
+[→ felipe-veas/platform-engineering-model](https://github.com/felipe-veas/platform-engineering-model)
+
+**Observability in Production**
+[→ felipe-veas/observability-in-production](https://github.com/felipe-veas/observability-in-production)
 
 ---
 
 ## What I Work On
 
-My work sits at the intersection of SRE, platform engineering, and operational
-design.
-
 - Incident response and coordination under real production pressure
-- Operational safety, deployment strategies, and rollout control
-- Driving down operational load (toil) across engineering teams
-- Converting tribal knowledge into runbooks and repeatable processes
-- Pushing operational boundaries so developers can run their own services safely
-
-Most production failures aren't technology problems—they're flawed operational
-models.
+- Safe deployment and rollout control
+- Reducing operational load (toil)
+- Converting tribal knowledge into runbooks
+- Enabling developers to operate services safely
 
 ---
 
-## Writing & Operational Notes
+## Operating Philosophy
 
-I maintain repositories documenting practical reliability engineering. These
-aren't step-by-step tutorials. They're notes on how production actually fails
-and how teams can run systems without burning out.
+Production reliability is achieved through safer operational systems, not stronger infrastructure.
 
-### Operating Production Systems
+Failures usually come from:
 
-How services behave under real load and why reliability is ultimately an
-organizational problem.
-<https://github.com/felipe-veas/operating-production-systems>
+- Unclear ownership
+- Unsafe change processes
+- Alerting that does not guide action
+- Poor incident coordination
 
-### Handling Production Incidents
-
-Incident response, coordination, severity assessments, and decision-making when
-things are actively on fire.
-<https://github.com/felipe-veas/handling-production-incidents>
-
-### Reducing Operational Toil
-
-Runbooks, automation boundaries, and keeping on-call rotations sustainable.
-<https://github.com/felipe-veas/reducing-operational-toil>
-
-### Platform Engineering Model
-
-Why internal platforms exist and how they shift operational ownership.
-<https://github.com/felipe-veas/platform-engineering-model>
-
-### Observability in Production
-
-Alerting philosophy, signal-to-noise ratios, and designing workflows for actual
-investigations.
-<https://github.com/felipe-veas/observability-in-production>
+I design systems where the correct operational action is the easiest action.
 
 ---
 
-## Engineering Work
+## Contact
 
-### Kubernetes Platform (GitOps + Terraform)
-
-A production-style platform demonstrating how to operationally separate
-infrastructure from workloads so both can be managed safely.
-
-<https://github.com/felipe-veas/homelab-platform>
-
-### Operational Tooling
-
-Internal CLI tools built to reduce cognitive load during operations.
-
-dotctl — operational CLI interface  
-<https://github.com/felipe-veas/dotctl>
-
-homebrew-tap — standardized tool distribution  
-<https://github.com/felipe-veas/homebrew-tap>
-
----
-
-## Engineering Approach
-
-I'm focused on changing *how* systems are operated, not just keeping the lights
-on.
-
-Core tenets:
-
-- Reliability is a property of operations, not just a high-nines uptime metric.
-- We automate for safety and consistency, not just convenience.
-- Alerts trigger incident response workflows; they aren't just dashboard noise.
-- Internal platforms exist to eliminate organizational coordination costs.
-- Incident response must rely on process, not hero engineers.
-
-When my work is successful, it's mostly invisible.
-
----
-
-LinkedIn  
-<https://linkedin.com/in/felipe-veas>
+[→ linkedin.com/in/felipe-veas](https://linkedin.com/in/felipe-veas)
