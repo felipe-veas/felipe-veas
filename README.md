@@ -38,9 +38,9 @@ Production-style platform showing how infrastructure and workloads can be operat
 
 Internal tooling designed to make operational actions safe and repeatable.
 
-### dotctl — operational CLI interface [→ felipe-veas/dotctl](https://github.com/felipe-veas/dotctl)
+#### dotctl — operational CLI interface [→ felipe-veas/dotctl](https://github.com/felipe-veas/dotctl)
 
-### homebrew-tap — standardized tool distribution [→ felipe-veas/homebrew-tap](https://github.com/felipe-veas/homebrew-tap)
+#### homebrew-tap — standardized tool distribution [→ felipe-veas/homebrew-tap](https://github.com/felipe-veas/homebrew-tap)
 
 ### Outcomes
 
@@ -87,7 +87,7 @@ These are not tutorials — they are operational reliability notes.
 
 Production reliability is achieved through safer operational systems, not stronger infrastructure.
 
-### Failures usually come from
+#### Failures usually come from
 
 - Unclear ownership
 - Unsafe change processes
