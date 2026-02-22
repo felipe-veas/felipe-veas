@@ -1,153 +1,89 @@
 # Felipe Veas
 
-**Site Reliability Engineer** | **Platform Reliability & Operations**
+Site Reliability Engineer — Platform Reliability & Operations
 
-I operate and improve production Kubernetes platforms on GCP and AWS.  
-My work focuses on reliability engineering, operational safety, and reducing
-engineering toil through platform design, automation, and internal tooling.
+I run production systems. Most of my day isn't spent fixing broken servers—it's spent fixing how organizations operate them.
 
-~9 years operating distributed production systems and critical SaaS environments.
+Reliability is an operational discipline. My focus is reducing human error, making incident response predictable, and building platforms so teams can ship safely without needing a PhD in operations.
 
----
-
-## Key Experience
-
-- Production on-call rotations for critical services
-- Incident response coordination and root-cause analysis
-- GitOps deployment platforms (ArgoCD)
-- Observability systems (metrics, logs, alerting)
-- Kubernetes platform operations (GKE)
-- Infrastructure as Code environments (Terraform)
-- Automation and internal operational tooling
+I've spent ~9 years operating distributed systems and critical SaaS environments.
 
 ---
 
-## Featured Project — Kubernetes Platform (GitOps + Terraform)
+## What I Work On
 
-Repository:  
-<https://github.com/felipe-veas/homelab-platform>
+My work sits at the intersection of SRE, platform engineering, and operational design.
 
-Production-style Kubernetes platform designed and operated using Terraform
-for cluster bootstrap and ArgoCD for workload orchestration.
+- Incident response and coordination under real production pressure
+- Operational safety, deployment strategies, and rollout control
+- Driving down operational load (toil) across engineering teams
+- Converting tribal knowledge into runbooks and repeatable processes
+- Pushing operational boundaries so developers can run their own services safely
 
-### Platform Capabilities
-
-- App-of-apps GitOps deployment model
-- Declarative workload delivery
-- Observability stack (metrics + logs)
-- Policy enforcement with Kyverno
-- Ingress, certificates, and operational services
-
-### Operational Impact
-
-- Reproducible cluster bootstrap
-- Safer change management
-- Configuration drift detection
-- Clear separation: infrastructure vs workloads
-- Operational visibility of cluster state
+Most production failures aren't technology problems—they're flawed operational models.
 
 ---
 
-## Automation & Tooling
+## Writing & Operational Notes
 
-I build tooling to reduce recurring operational work and allow engineers to
-operate systems safely without deep infrastructure expertise.
+I maintain repositories documenting practical reliability engineering. These aren't step-by-step tutorials. They're notes on how production actually fails and how teams can run systems without burning out.
 
-**Examples**:
+### Operating Production Systems
+How services behave under real load and why reliability is ultimately an organizational problem.
+https://github.com/felipe-veas/operating-production-systems
 
-dotctl — internal operational CLI  
-<https://github.com/felipe-veas/dotctl>
+### Handling Production Incidents
+Incident response, coordination, severity assessments, and decision-making when things are actively on fire.
+https://github.com/felipe-veas/handling-production-incidents
+
+### Reducing Operational Toil
+Runbooks, automation boundaries, and keeping on-call rotations sustainable.
+https://github.com/felipe-veas/reducing-operational-toil
+
+### Platform Engineering Model
+Why internal platforms exist and how they shift operational ownership.
+https://github.com/felipe-veas/platform-engineering-model
+
+### Observability in Production
+Alerting philosophy, signal-to-noise ratios, and designing workflows for actual investigations.
+https://github.com/felipe-veas/observability-in-production
+
+---
+
+## Engineering Work
+
+### Kubernetes Platform (GitOps + Terraform)
+A production-style platform demonstrating how to operationally separate infrastructure from workloads so both can be managed safely.
+
+https://github.com/felipe-veas/homelab-platform
+
+### Operational Tooling
+
+Internal CLI tools built to reduce cognitive load during operations.
+
+dotctl — operational CLI interface  
+https://github.com/felipe-veas/dotctl
 
 homebrew-tap — standardized tool distribution  
-<https://github.com/felipe-veas/homebrew-tap>
-
-**Outcomes**:
-
-- Faster onboarding
-- Standardized operational workflows
-- Reduced configuration errors
-- Less manual intervention during incidents
-
----
-
-## Reliability & Operations
-
-### Incident Response
-
-- On-call incident handling and coordination
-- Root-cause analysis and recurrence prevention
-- Blameless post-incident reviews
-- Recovery and service continuity procedures
-
-### Reliability Engineering
-
-- SLO-driven alerting
-- Signal tuning and alert fatigue reduction
-- Failure mode analysis
-- Improving recovery characteristics (not only uptime)
-
-### Platform Engineering
-
-- Kubernetes workload standardization
-- GitOps rollout patterns
-- Safe deployment practices
-- Developer enablement workflows
-
----
-
-## Observability
-
-Built and operated observability layers combining metrics, logs, and traces.
-
-- Prometheus & Grafana
-- Elastic Stack
-- Datadog
-- Alerting and signal quality tuning
-- Faster incident triage and investigation
-
----
-
-## Technical Stack
-
-**Cloud & Infrastructure**  
-GCP, AWS, Terraform, Linux
-
-**Containers & Orchestration**  
-Kubernetes (GKE), Helm, Docker
-
-**GitOps & CI/CD**  
-ArgoCD, GitLab CI, GitHub Actions
-
-**Languages**  
-Python, Bash, Go (tooling)
-
----
-
-## Operational Background
-
-- Multi-tenant high-availability systems
-- Incident coordination
-- Service recovery
-- Capacity and scaling events
-- Collaboration with development and product teams
+https://github.com/felipe-veas/homebrew-tap
 
 ---
 
 ## Engineering Approach
 
-I focus on changing how systems are operated, not only keeping them running.
+I'm focused on changing *how* systems are operated, not just keeping the lights on.
 
-Core principles:
+Core tenets:
 
-- Reliability as a system property
-- Automation as operational safety
-- Toil reduction as an engineering goal
-- Incident response as a repeatable process
+- Reliability is a property of operations, not just a high-nines uptime metric.
+- We automate for safety and consistency, not just convenience.
+- Alerts trigger incident response workflows; they aren't just dashboard noise.
+- Internal platforms exist to eliminate organizational coordination costs.
+- Incident response must rely on process, not hero engineers.
 
-Most of what I build is invisible when it works.
+When my work is successful, it's mostly invisible.
 
 ---
 
-## Elsewhere
-
-LinkedIn: <https://linkedin.com/in/felipe-veas>
+LinkedIn  
+https://linkedin.com/in/felipe-veas
