@@ -4,7 +4,9 @@ Site Reliability Engineer — Platform Reliability & Operations
 
 **Most reliability problems are organizational, not technical.**
 
-I design and operate production systems with a focus on operational safety, predictable incident response, and reducing operational load across teams.
+SRE with 8+ years in production operations. I specialize in taking unstable production environments and building the infrastructure, observability, and operational practices to make them reliable. Most recently operated a B2B SaaS platform (~60 services, 29M+ requests/day, 4 cloud providers) — reduced critical incidents from daily occurrences to 1–2/month, migrated all infrastructure to Terraform, and built the observability and incident response frameworks from scratch.
+
+I write operational tooling in Python and Go.
 
 ---
 
