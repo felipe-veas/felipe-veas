@@ -38,18 +38,24 @@ Production-style platform showing how infrastructure and workloads can be operat
 
 ## Operational Tooling
 
-Internal tooling designed to make operational actions safe and repeatable.
+I build internal CLI tools to improve operational visibility, accelerate incident resolution, and reduce manual work. Most of this tooling is private, but here is what it covers:
 
-#### dotctl — operational CLI interface [→ felipe-veas/dotctl](https://github.com/felipe-veas/dotctl)
+#### Diagnostics & Observability (Python)
 
-#### homebrew-tap — standardized tool distribution [→ felipe-veas/homebrew-tap](https://github.com/felipe-veas/homebrew-tap)
+- **Multi-node uWSGI monitor** — TUI with real-time worker status, emergency kill, Datadog integration, and multi-country infrastructure support
+- **Cloud SQL query tracker** — real-time view of active, idle, and blocked queries across production databases via IAP tunneling, with Slack alerting for long-running queries
+- **GCP Load Balancer log analyzer** — traffic classification (internal vs external), P95/P99 latency, status code breakdown, and monthly trend reports
 
-### Outcomes
+#### LLM-powered tools (Python & Go)
 
-- Faster onboarding
-- Repeatable operations
-- Fewer configuration errors
-- Less manual intervention during incidents
+- **SQL-to-Django-ORM reverse mapper** — indexes Django codebase and predicts which ORM functions generate a given SQL query, ranked by confidence
+- **Infrastructure reporting** — automated weekly Datadog/GCP reports with capacity recommendations and MIG cost optimization estimates
+- **Code review bot** (Go) — hybrid static rules + LLM analysis for PR review in CI/CD pipelines, specialized in Django ORM patterns
+
+#### Public tools
+
+- **dotctl** — CLI for managing and versioning dotfiles across machines [→ felipe-veas/dotctl](https://github.com/felipe-veas/dotctl)
+- **homebrew-tap** — standardized tool distribution [→ felipe-veas/homebrew-tap](https://github.com/felipe-veas/homebrew-tap)
 
 ---
 
@@ -77,11 +83,14 @@ These are not tutorials — they are operational reliability notes.
 
 ## What I Work On
 
-- Incident response and coordination under real production pressure
-- Safe deployment and rollout control
-- Reducing operational load (toil)
-- Converting tribal knowledge into runbooks
-- Enabling developers to operate services safely
+- Platform reliability and proactive capacity planning
+- Incident response, postmortem processes, and on-call operations
+- Kubernetes platform standardization and self-service enablement
+- Infrastructure as Code at scale (Terraform, Packer, multi-cloud)
+- Observability design (Datadog, Elastic Stack) and alerting strategy
+- CI/CD pipeline design for safe, autonomous deployments
+- Building diagnostic and operational tooling (Python, Go)
+- Reducing operational toil and converting tribal knowledge into runbooks
 
 ---
 
